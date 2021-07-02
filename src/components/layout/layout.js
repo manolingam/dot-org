@@ -9,6 +9,8 @@ import Footer from '../shared/footer/footer'
 import '../../styles/_globals.scss'
 import '../../styles/portfolio.scss'
 
+// trigger deploy
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
